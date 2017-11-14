@@ -20,7 +20,7 @@ public class MergeSort {
 				a[k] = from[k];
 
 		time_end = System.nanoTime();
-		printArray(a);
+		//printArray(a);
 		return (time_end - time_start);
 	}
 
@@ -58,7 +58,7 @@ public class MergeSort {
 				merge(a, aux, start, start + blockSize, start + 2 * blockSize);
 
 		time_end = System.nanoTime();		
-		printArray(a);
+		//printArray(a);
 		return (time_end - time_start);
 	}
 

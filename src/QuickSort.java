@@ -27,7 +27,7 @@ public class QuickSort {
             stack.push(p);
         }
         time_end = System.nanoTime();
-        printArray(numbers); 
+        //printArray(numbers); 
         return (time_end-time_start);
     }
 

@@ -18,7 +18,7 @@ public class BubbleSort {
             }
         }
         time_end = System.nanoTime();
-        printArray(arr);
+        //printArray(arr);
         return (time_end-time_start);
     }
  

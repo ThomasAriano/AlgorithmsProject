@@ -22,7 +22,7 @@ public class SelectionSort {
             arr[i] = temp;
         }
         time_end = System.nanoTime();
-        printArray(arr);
+        //printArray(arr);
         return (time_end-time_start);
     }
  
